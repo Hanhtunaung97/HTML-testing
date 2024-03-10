@@ -1,0 +1,41 @@
+.vl {
+  border: 1px solid black;
+  list-style: none;
+  padding: 10px;
+  width: 120px;
+}
+.vli {
+  border: 1px solid black;
+  padding: 10px 20px;
+  margin-bottom: 10px;
+  text-align: center;
+  transition: 1s;
+}
+.vli:last-child {
+  margin-bottom: 0;
+}
+.vli:hover{
+    background-color: gold;
+    border-radius: 10px;
+    color: royalblue;
+    border-color: white;
+}
+.hl {
+  width: 100%;
+  border: 1px solid black;
+  list-style: none;
+  padding: 5px ;
+}
+.hli {
+    transition: 1s;
+  border: 1px solid black;
+  padding: 10px;
+  /* margin-bottom: 10px; */
+  display: inline-block;
+}
+.hli:hover{
+    background-color: goldenrod;
+    color: blue;
+    border-radius: 10px;
+    border-color: white;
+}

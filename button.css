@@ -1,0 +1,108 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap');
+.btn{
+    background-color: black;
+    color: white;
+    font-size: 20px;
+    font-family: 'Roboto', sans-serif;
+    border: 1px solid black;
+    padding: 10px 20px;
+    transition: 0.5s;
+    border-radius: 10px;
+}
+.btn:hover{
+    background-color: transparent;
+    color: black;
+}
+.btn-outline{
+    background-color: transparent;
+    color: black;
+    font-size: 20px;
+    font-family: 'Roboto', sans-serif;
+    border: 1px solid black;
+    padding: 10px 20px;
+    transition: 0.5s;
+    border-radius: 10px;
+}
+.btn-outline:hover{
+    background-color: black;
+    color: white;
+    /* border: 1px solid white; */
+    border-color: white;
+}
+.btn-icon{
+    background-color: black;
+    color: white;
+    width: 50px;
+    height: 50px;
+    font-size: 20px;
+    font-family: 'Roboto', sans-serif;
+    border: 1px solid black;
+    /* padding: 10px 20px; */
+    transition: 0.5s;
+    border-radius: 50%;
+}
+.squared{
+    border-radius: 10px;
+}
+.rounded{
+    border-radius: 50%;
+}
+.primary{
+    background-color:gold;
+    color: black;
+}
+.primary:hover{
+    background-color: transparent;
+    color: gold;
+    border-color: gold;
+}
+.secondry{
+    background-color: palevioletred;
+    color: black;
+}
+.secondry:hover{
+    background-color: white;
+    color:palevioletred;
+    border-color: palevioletred;
+}
+.third{
+    background-color: aqua;
+    color: black;
+}
+.third:hover{
+    background-color: transparent;
+    color: aqua;
+    border-color: aqua;
+}
+.primaryA{
+    color: gold;
+    /* border-color: gold;
+     */
+     border: 3px solid gold;
+}
+.primaryA:hover{
+    background-color: gold;
+    color:white;
+    border-color:white;
+}
+.secondryA{
+    background-color: white;
+    color: palevioletred;
+    /* border-color: palevioletred;
+     */
+     border: 3px solid palevioletred;
+}
+.secondryA:hover{
+    background-color: palevioletred;
+    color: white;
+border: 3px solid white;
+}
+.thirdA{
+    color: aqua;
+    border: 3px solid aqua;
+}
+.thirdA:hover{
+    background-color: aqua;
+    color: white;
+    border-color:transparent;
+}

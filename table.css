@@ -1,0 +1,24 @@
+table{
+    width: 100%;
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+tr:nth-child(even){
+background-color: gainsboro;
+}
+th,td{
+    /* border: 1px solid black; */
+    padding: 10px;
+    
+}
+tr:hover{
+    background-color: silver;
+}
+th{
+    background-color: goldenrod;
+    color:black;
+    text-align: left;
+}
+tr{
+    border-bottom: 1px solid black;
+}
